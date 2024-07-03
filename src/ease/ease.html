@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Ruiz</title>
+
+        <!--normalize.css provides a consistent baseline for styles across different browsers-->
+        <link rel="stylesheet" href="/css/normalize.css">
+
+        <!--link to font awesome icons and assets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	   
+        <!--link to style.css-->
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+   
+    <body>
+        <!--navigation bar-->
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <a href="/index.html" style="text-decoration: none; color: inherit;">
+                        <img class="nav__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                        <p class="nav__logo-text">Marc Ruiz <br> UX/UI Designer</p>
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="/src/contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--header project title-->
+
+        <section class="project__title">
+            <img class="project__title-img" src="./assets/cover.png" alt="amazon redesign header">
+        </section>
+
+        <!--content-->
+
+        <section class="project__content">
+
+            <p class="project__p">
+                For this project we had to create a Wellness App for a real client, <strong>Daily Health Conference</strong>. 
+                The Daily Health Conference began in 1983 in San Francisco as a conference where Medicine, Health, and Wellness converged, and 
+                it now covers nearly all health-related topics, from nutrition to sleep to addiction, in over 100 languages.<br><br>
+
+                My new team and I chose to develop a Meditation App for IOS. Meditation is a simple practice available to all, 
+                which can reduce stress, increase calmness and clarity and promote happiness. Keeping the day to day stress at 
+                bay is an important topic to me, so I felt that it was a good topic to work with in this project as well.<br><br>
+
+                Many apps already guide you through this Meditation process. We wanted to still develop a Guided Meditation App, 
+                but something different to the existing ones.<br><br>
+
+                We started by analyzing our direct competitors: Calm and Headspace Apps.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/competitive_feature_analysis.png" alt="competitive feature analysis">
+                <p class="project__img-caption">Competitive Feature Analysis</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/competitive_brand_comparison.png" alt="competitive brand comparison">
+                <p class="project__img-caption">Competitive Brand Comparison</p>
+            </div>
+
+            <h2 class="project__subtitle project_4__subtitle">Empathize</h2>
+
+            <p class="project__p">
+                We started the <strong>Empathize</strong> part. For the Primary Research, this time we had two information sources. First of all, we had 
+                to set up a Survey with relevant questions, in order to get <span class="bitalic">Quantitative Data</span>. We agreed those questions and set up a 
+                <span class="bitalic">Survey</span> to answers from people practising meditation and the usage of meditation apps among the population. Additionally, 
+                we brainstormed questions for our <span class="bitalic">Interviews</span>, which would get us <span class="bitalic">Qualitative Data</span> setting up some of them for that specific 
+                day.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/interview_insights.png" alt="interview insights">
+                <p class="project__img-caption">Some interviewee insights</p>
+            </div>
+
+            <p class="project__p">
+                The Survey was slowly giving us data in the form of dashboards and bit by bit an idea of ​​how the situation was in the use of meditation and 
+                relaxation techniques was appearing before us. This information was helpful to adapt some questions for our last interviews and get more accurate data.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/survey_answers.png" alt="survey results">
+                <p class="project__img-caption">Survey results (Google Forms, 88 answers)</p>
+            </div>
+
+            <h2 class="project__subtitle project_4__subtitle">Define</h2>
+
+            <p class="project__p">
+                After collecting all the data we started the <strong>Define</strong> process, by grouping and labeling all the user insights in the <span class="bitalic">Affinity diagram</span>.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/affinity_diagram.png" alt="affinity diagram">
+                <p class="project__img-caption">Survey results (Google Forms, 88 answers)</p>
+            </div>
+
+            <p class="project__p">
+                We detected there that there were at least four strong topics to analyse:
+                    <ul class="indented">
+                        <li>The <strong>reason</strong> people have to meditate (stress, anxiety, etc).</li>
+                        <li>That the majority of them likes <strong>guided meditation</strong>.</li>
+                        <li>Some people attach meditation to <strong>spirituality</strong>, but others don’t, so they focus more on the <strong>practicality</strong> of it.</li>
+                        <li>Users <strong>want to see progress</strong> and want to be shown this progress in real time.</li>
+                        <li>Users need guidance to <strong>choose the right technique</strong> to solve their problems.</li>
+                    </ul>
+                Next step was the <span class="bitalic">Empathy Map</span>, where we could define and sort more the interviewees’ insights.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/empathy_map.png" alt="empathy map">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                We had all the tools to define our User Persona. In this case, the survey answers helped us a lot to define it. Please meet <strong>Self-reflective Regina</strong>:
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/user_persona.png" alt="user persona">
+                <p class="project__img-caption"></p>
+            </div>
+            
+            <p class="project__p">
+                The same happened with the <span class="bitalic">User Journey Map</span>. Thanks to the insights of the survey, it was easier to define Regina’s Journey Map.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/journey_map.png" alt="journey map">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Finally, we defined our Problem Statement. Each of us brainstormed and discussed later the best approach. 
+                In the end we got this statement:
+                <p class="indented bitalic">
+                    “Self reflective millennials need to find a way to a clearly guided meditation tailored to their needs, 
+                    because they need to be motivated to continuously work on their mental health”
+                </p>
+            </p>
+
+            <h2 class="project__subtitle project_4__subtitle">Ideate</h2>
+
+            <p class="project__p">
+                The next step was the <strong>Ideation</strong> part. Using the Crazy 8s exercise, we brainstormed some ideas based on 
+                our problem statement and taking into consideration some of the interview’s insights. Then exposed to the others our 
+                ideas and voted for our favourite features.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/crazy_8.png" alt="crazy_8s">
+                <p class="project__img-caption">Crazy 8s</p>
+            </div>
+            
+            <p class="project__p">
+                After that, we moved to the <span class="bitalic">MOSCOW method</span>. In the must-have part of the map, we added the mandatory features from the 
+                client briefing, and discussed which features that we came up with during the process should go in each section.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/moscow_method.png" alt="moscow method">
+                <p class="project__img-caption">MOSCOW Method</p>
+            </div>
+
+            <p class="project__p">
+                The final part of the <strong>Ideate</strong> process was the <span class="bitalic">MVP Statement</span>:
+                <p class="indented bitalic">
+                    “Our goal is to create an app that helps users to find the best meditation technique tailored to their 
+                    specific needs by showing their direct impact and benefits. It gives the possibility to track their progress 
+                    and motivates users to meditate regularly.”
+                </p>
+            </p>
+
+            <h2 class="project__subtitle project_4__subtitle">Prototype</h2>
+
+            <p class="project__p">
+                Next step, <strong>Prototyping</strong>. Each of us created a Low-fi prototype. We put them together and analyze them, choosing 
+                the best ones for each part and combining them.<br><br>
+
+                The next step was to test our Low-fi. For this we showed the process to some classmates, and they gave us their 
+                feedback. It turned out that in general our concept was good, but it required some improvements, especially in 
+                the Home page.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/low-fis.png" alt="low fis">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                We put the results in common and applied them already in our Mid-fi prototype, creating an effective prototype to 
+                test in the Usability Tests. We got very useful insights at this stage, which helped us iterate a lot and improve 
+                our prototype. One of them was to include the option to “not ask again” and remember the answers to the “Choose 
+                your environment” page when you start a new meditation session.<br><br>
+
+                Another page that we improved due to the users insights at this point was the Homepage. People found this page a 
+                bit confusing, specially regarding the wording of the buttons, and the different options this page offered. We 
+                iterated on it and improved the final Mid-fi.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/mid-fi_iterations.png" alt="mid-fi iterations">
+                <p class="project__img-caption">Some Mid-fi iterations</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/final_mid-fi.png" alt="final mid-fi">
+                <p class="project__img-caption">Final Mid-fi, ready to apply some style on it</p>
+            </div>
+
+            <p class="project__p">
+                From there we had to start thinking about the style in our Prototype, so we started with our Brand Values and from 
+                that a Moodboard. We sent the Moodboard around and asked for attributes for it. We got mostly the same attributes 
+                we prerviously had, but maybe in different ways to express them, like <span class="italic">Energetic</span> instead of 
+                <span class="italic">Motivating</span>, or <span class="italic">Relaxing</span> instead of 
+                <span class="italic">Calm</span>.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/moodboard.png" alt="moodboard">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                After that, each of us extracted a <span class="bitalic">Color</span> palette and discussed which approach would be the best. The same for 
+                <span class="bitalic">Typography</span>. In order to choose and decide, we took a screen from our Mid-Fi and directly applied there color and typography, to see how 
+                these would work in the final product. We dot-voted every step of the way, so it was easy to decide and define our <span class="bitalic">Style Tile</span>. 
+                We wanted soothing colors for it, so we used pastel colors instead of bright colors. We focused on the <span class="italic">Night Mode</span>, so we used 
+                a <span class="bitalic">Navy Blue</span> background. Finally we wanted to make the concepts inside the app as visual as possible, so we used linear 
+                illustrations, that combined with text helped explain the buttons and ideas inside the app, improving the accessibility at the same time.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/style_tile.png" alt="style tile">
+                <p class="project__img-caption">Style tile for “Ease” app</p>
+            </div>
+
+            <p class="project__p">
+                Finally, we were ready to apply this style to our entire Hi-fi. We divided the screens, applied it, and then discussed 
+                the changes and harmonized the Hi-fi with the best approach.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/screenshots.png" alt="hi-fi screenshots">
+                <p class="project__img-caption">Some Hi-Fi prototype screens</p>
+            </div>
+
+            <p class="project__p">
+                For this project we had to create a Wellness App for a real client, <strong>Daily Health Conference</strong>. The Daily Health Conference began Next, we conducted 
+                Usability testing. People gave us valuable attributes that reassured us that we were transmitting the right feeling with the style of the app.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/hi-fi_insights.png" alt="hi-fi screenshots">
+                <p class="project__img-caption">Some Hi-Fi prototype screens</p>
+            </div>
+
+            <p class="project__p">
+                Please take a look at our Hi-Fi Prototype:
+            </p>
+
+            <div class="iframe-container">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpUe6X6op3TdEyWIVLDyqvI%2FP4_Marc_Design-File%3Fpage-id%3D116%253A21%26node-id%3D2043-1511%26viewport%3D678%252C483%252C0.13%26t%3DzZrJW9pxxwlwOF2q-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D2043%253A1511" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="project__subtitle project_4__subtitle">Learnings</h2>
+
+            <p class="project__p">
+                <ul class="indented">
+                    <li>Findings from quantitative and qualitative research have to be interpreted in each specific context.</li>
+                    <li>Features of competitive apps can differ based on the user’s and stakeholder’s goals.</li>
+                    <li>Flexible framework and methodology enables us to focus on specific problems of our users.</li>
+                </ul>
+            </p>
+
+            <h2 class="project__subtitle project_4__subtitle">Next Steps</h2>
+
+            <p class="project__p">
+                <ul class="indented">
+                    <li>In the end, although we test the prototype in each step, we did not test it as much as we wanted due to the tight project schedule, so we would want an additional test and iteration phase.</li>
+                    <li>Additionally, we want to refine the design, and add other paths to have a complete App prototype.</li>
+                    <li>Finally, it would be great to create a Light Mode for this app, and add the ability to change it on the Settings page.</li>
+                </ul>
+            </p>
+
+            <h2 class="project__subtitle project_4__subtitle">Conclusions</h2>
+
+            <p class="project__p">
+                This was my fourth project in the Ironhack Bootcamp. It was nice to see how the project was moving slowly but without pause 
+                to finish in an appropriate and satisfactory manner. I have to thank Eve and Adam for the commitment they showed and the 
+                great work we did together. Without them, this project it would not have been possible.<br><br>
+                
+                For sure, there is a lot of room to improve in this project as in the previous ones, but I am proud of the result and I 
+                learned a lot of things during its process.<br><br>
+
+                Thank you for your time.
+            </p>
+
+        </section>
+
+        <!--contact banner-->
+        <section class="contact-banner">
+            <h2 class="section__title">Let's work together!</h2>
+            <a href="/src/contact/contact.html">
+                <button class="contact-banner__button">Contact Me</button>
+            </a>
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logos">
+                    <a href="/index.html">
+                        <img class="footer__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                    </a>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/marcruizrullo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__marc">marcruizrullo.com - 2024</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/toggle.js"></script>
+        
+    </body>
+</html>

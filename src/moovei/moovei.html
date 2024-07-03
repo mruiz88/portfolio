@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Ruiz</title>
+
+        <!--normalize.css provides a consistent baseline for styles across different browsers-->
+        <link rel="stylesheet" href="/css/normalize.css">
+
+        <!--link to font awesome icons and assets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	   
+        <!--link to style.css-->
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+   
+    <body>
+        <!--navigation bar-->
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <a href="/index.html" style="text-decoration: none; color: inherit;">
+                        <img class="nav__symbol" src="assets/logo.svg" alt="marcruizrullo.com logo">
+                        <p class="nav__logo-text">Marc Ruiz <br> UX/UI Designer</p>
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="/src/contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--header project title-->
+
+        <section class="project__title">
+            <img class="project__title-img" src="./assets/cover_1.png" alt="moovei header">
+        </section>
+
+        <!--content-->
+
+        <section class="project__content">
+            
+            <h2 class="project__subtitle project_1__subtitle">Introduction</h2>
+
+            <p class="project__p">
+                I started the Ironhack Bootcamp in UI/UX in November 2022. This bootcamp is divided in different projects, 
+                and the first one was named “Wicked Problems”. The problem here was how to deliver a solution to an increasing
+                mobility problem that big cities are experiencing, and how we could organize the variety of people navigating
+                the streets, providing a more efficient and cleaner city.
+            </p>
+
+            <p class="project__p indented">
+                <span class="bitalic">Wicked problems</span> — “…a class of social system problems which are ill-formulated,
+                where the information is confusing, where there are many clients and decision-makers with 
+                conflicting values, and where the ramifications in the whole system are thoroughly confusing.”
+            </p>
+
+            <p class="project__p">
+                Each group was given a topic in society’s problems that are really hard to solve (Food Sustainability, 
+                Immigration…). Our given topic was “City Mobility”.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="../assets/design_thinking.svg" alt="design thinking process scheme">
+                <p class="project__img-caption">Design Thinking Process</p>
+            </div>
+
+            <h2 class="project__subtitle project_1__subtitle">Empathize</h2>
+
+            <p class="project__p">
+                Using the <strong>Design Thinking</strong>, in the first step we had to Empathize with the user, 
+                which in this case is every person that navigates the city (either by public or private transport).
+                <br><br>
+                Firstly, we conducted a <span class="bitalic">Secondary Research</span> through the internet, in search of relevant articles
+                talking about this topic. We found pretty interesting articles from which we extracted useful
+                quantitative data.
+            </p>
+
+            <p class="project__p indented italic">
+                "More than 4.3 billion people — or 55% of the world’s population live in urban settings today, and that
+                number is expected to rise to 80% by 2050."
+            </p>
+
+            <p class="project__p">
+                Our initial assumptions were that the public transport can be really unreliable sometimes, the streets in
+                big cities tend to be crowded streets, and the bike lanes are dangerous in most cities, as they are not clearly
+                delimited.<br><br>
+                For that we set up a Miro board in which each member of the group added the information they found interesting 
+                to share, and relevant to the investigation. Secondly, we handled the <span class="bitalic">Primary Research</span> where we conducted
+                interviews to day-to-day City Mobility Users. The first part was to brainstorm and set up the questions for
+                the user interviews.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/insights.png" alt="interviewee answers diagram">
+                <p class="project__img-caption">Some answers from the interviewees</p>
+            </div>
+
+            <p class="project__p">
+                With our questions clearly defined, the group split and conducted two mock-up interviews in pairs. One acted as a moderator, 
+                asking the actual questions to the interviewee, and the other took notes of the answers. This way we could practice our
+                interview skills and amend the questions if necessary. <br><br>
+                Finally, we conducted the actual interviews with people outside Ironhack. Either in person or via the internet, 
+                we asked our friends, family or acquaintances to be our “guinea pigs” and act as the users for our project. 
+                We extracted valuable information that will be sorted and analysed.
+            </p>
+
+            <h2 class="project__subtitle project_1__subtitle">Define</h2>
+
+            <p class="project__p">
+                With all our interviews insights in form of sticky notes, we created an Affinity diagram, where we started to 
+                sort them per themes or ideas, generating clusters of ideas that later we labelled. This way we had a clearer 
+                idea of the big picture. After this part, the team dot-voted which group seemed more relevant to them. 
+                In our case, the group Autonomy, freedom and flexibility was the most voted.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/affinity_diagram.png" alt="affinity diagram">
+                <p class="project__img-caption">Autonomy, freedom and flexibility”, the chosen topic via dot voting</p>
+            </div>
+
+            <p class="project__p">
+                Parallelly, Each of us came up with 3 possible <span class="italic">How Might We</span> statements. An early exercise to find possible solutions
+                for the problems or issues our users have encountered. <br><br>
+                Finally, with all the previous information gathered, we could generate a <span class="italic">User Persona</span>, a fictitious character
+                that more or less summarizes all the insights and ideas of our interviewees. <br><br>
+                Please, meet <strong>Iris</strong>, our User Persona:
+            </p>
+            
+            <div class="project__img project__img-small">
+                <img src="./assets/user_persona.png" alt="Iris's user persona">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Iris here needed to explain her daily commuting to work, so we produced Iris’s <span class="italic">Journey Map</span>. 
+                A really useful tool to figure out how might a random working day of our <span class="italic">User Persona</span> go. 
+                Firstly, each of us independently drafted how we thought the <span class="italic">Journey Map</span> might look like, 
+                and after sharing and explaining it to the others. We voted which was the most accurate and combined 
+                the parts of each that in our opinion matched best our <span class="italic">User Persona</span>. From there, we arranged our refined 
+                and definitive <span class="italic">Journey Map</span>.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/user_journey.png" alt="Iris's user journey">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Firstly, we needed the definition of the <span class="italic">Problem Statement</span>. In this part, each of us had to try to define the 
+                <span class="italic">Problem Statement</span> for this project, having in consideration all the previous gathered info. After that all the 
+                team discussed and produced with the <span class="bitalic">Final Problem Statement</span>, the problem for which we will have to find a 
+                solution.
+            </p>
+
+            <p class="project__p indented bitalic">
+                "Young, professional city dwellers need to find a cleaner way to move around the city quickly, independently and safely, 
+                because right now they feel constrained by the rigidity and unreliability of public transport, 
+                traffic jams and insecurities."
+            </p>
+
+            <h2 class="project__subtitle project_1__subtitle">Ideate</h2>
+
+            <p class="project__p">
+                Now the fun begins. In this part, we could choose an exercise and try to come up with ideas to solve the problem at hand. 
+                We chose one called Crazy 8. It is an actually funny exercise, where each member of the group had to come up and sketch 
+                quickly an idea on how to solve the problem. One minute for each idea, up to a total of 8 ideas. After the brainstorming 
+                process, we voted on the most original and helpful ideas.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/crazy_8s.png" alt="crazy 8s exercise">
+                <p class="project__img-caption">Team's Crazy 8s</p>
+            </div>
+
+            <p class="project__p">
+                We had to produce a non-digital solution and a digital solution (the actual App) for this problem. We came up with the following idea. 
+                <strong>The city provides free public transport tickets for the local population</strong>. This will be deduced of the local taxes. Visitors 
+                and tourists do not have access to this feature.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/non_digital.png" alt="non-digital solution explanation image">
+                <p class="project__img-caption">Locals application process to the free public transport program</p>
+            </div>
+
+            <p class="project__p">
+                This solution goes in conjunction with our app, which acts as a digital solution for this wicked problem. 
+                It integrates:<br>
+                <ul class="indented">
+                    <li>Data and location of all modes of transport (public and private).</li>
+
+                    <li>Possibility to set preferences for your journeys (speed, comfort, less emissions, cheaper option…) 
+                        in your profile, so your searches always have in mind your preferences.</li>
+
+                    <li>Alerts in real-time about incidents on the way and notifications about all saved trips, 
+                        plus suggestions of alternative journeys.</li>
+
+                    <li>Digital wallet containing both the free card for residents and credit for “private” options 
+                        (Uber, electric scooters, etc.) that need payment, and for the city visitors.</li>
+                </ul>
+
+            </p>
+
+            <h2 class="project__subtitle project_1__subtitle">Prototype</h2>
+
+            <p class="project__p">
+                Each of us came up with a prototype, all of us presented ours and voted the features/screens that we thought more useful. 
+                From there we assembled our first prototype.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/prototype_1.png" alt="first hand drawn Low-Fi iteration">
+                <p class="project__img-caption">Some screens for the first Low-fi iteration</p>
+            </div>
+
+            <h2 class="project__subtitle project_1__subtitle">Test</h2>
+
+            <p class="project__p">
+                After we assembled our final Low-fi, we conducted the Concept Testing with our interviewees.
+            </p>
+            
+            <div class="project__img">
+                <img src="./assets/concept_testing.png" alt="concept testing insights">
+                <p class="project__img-caption">Concept testing for our first Low-fi iteration</p>
+            </div>
+
+            <p class="project__p">
+                From what we learned from Concept Testing, we iterated our prototype and improved it. Below are some changes we made
+                based on the insights of the people who tested the prototype:
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/prototype_2.png" alt="insights applied to our Low-fi">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Finally bellow you can try the Low-Fi prototype for this project:
+            </p>
+
+            <div class="iframe-container">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNbMtXL41LE3AhEGwiacpmR%2FP1_Marc_Design-File%3Fpage-id%3D16%253A321%26node-id%3D874-643%26viewport%3D995%252C565%252C0.03%26t%3D58wGvFpcahsv7XQc-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D874%253A643" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="project__subtitle project_1__subtitle">Learnings</h2>
+
+            <p class="project__p">
+                There is a lack of solutions integrating all mobility-related data and options within a city, both public and private.<br><br>
+                Currently, people value autonomy and freedom when they move around. The current systems in place are not able to 
+                accommodate this need.
+            </p>
+
+            <h2 class="project__subtitle project_1__subtitle">Next Steps</h2>
+
+            <p class="project__p">
+                We want to test the idea further and keep iterating on the concept. We wound also like to deep-dive on the work 
+                needed to make the non-digital initiative happen and explore the possibilities for agreement with private mobility 
+                providers so all their data can be shown in one single App.<br><br>
+                Finally, we would like to start the design process for a safety feature (not in the focus of our work, but mentioned
+                in the interviews).
+            </p>
+
+            <h2 class="project__subtitle project_1__subtitle">Conclusions</h2>
+
+            <p class="project__p">
+                This was our first UX project, and I am really proud of it. I have to thank my amazing teammates Tommaso, 
+                Corinne and Irina for this project, and I look forward to continue working with them. Of course, there is a 
+                lot of room to improve, but it set the foundations for a better understanding of what becoming a UX/UI designer means.
+                Thank you for your time.
+            </p>
+
+        </section>
+
+        <!--contact banner-->
+        <section class="contact-banner">
+            <h2 class="section__title">Let's work together!</h2>
+            <a href="./contact.html">
+                <button class="contact-banner__button">Contact Me</button>
+            </a>
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logos">
+                    <a href="/index.html">
+                        <img class="footer__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                    </a>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/marcruizrullo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__marc">marcruizrullo.com - 2024</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/toggle.js"></script>
+        
+    </body>
+</html>

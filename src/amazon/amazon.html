@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Ruiz</title>
+
+        <!--normalize.css provides a consistent baseline for styles across different browsers-->
+        <link rel="stylesheet" href="/css/normalize.css">
+
+        <!--link to font awesome icons and assets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	   
+        <!--link to style.css-->
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+   
+    <body>
+        <!--navigation bar-->
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <a href="/index.html" style="text-decoration: none; color: inherit;">
+                        <img class="nav__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                        <p class="nav__logo-text">Marc Ruiz <br> UX/UI Designer</p>
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="/src/contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--header project title-->
+
+        <section class="project__title">
+            <img class="project__title-img" src="./assets/cover.png" alt="amazon redesign header">
+        </section>
+
+        <!--content-->
+
+        <section class="project__content">
+
+            <p class="project__p">
+                The following project was the third in Ironhack Bootcamp. This time we were to redesign a popular mobile app, 
+                improving our UI skills and learning more about apps style and structure on the way. This project was to be 
+                performed individually. After some inquiries and doubts, I was bold enough to choose <strong>Amazon app on Android</strong> for 
+                this redesign. The reason behind this decision is that Amazon App is vast in screens, options and information, 
+                so surely it could allow some room to make things differently.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/real_ui.png" alt="current ui design of Amazon app in iOS">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                I started choosing three screens to clone in Figma, in order to better understand the app and practice my UI 
+                skills a bit, which is always good. I chose the Home page, Profile Result page and a Product page.<br><br>
+
+                Cloning Amazon app screens, I realized that there is a clear lack of consistency in their design. Prices are 
+                shown in 3 or 4 different ways, and there are dozens of different product cards, each with a font size, photo 
+                size, different elements colocation and different card size. It really seems that Amazon doesn’t care a lot 
+                about consistency in their design (not that they need it to be a recognizable app, luckily for them) but I feel 
+                that they have added elements in different stages and updates, not taking in consideration the previous ones and 
+                not having a clear Style Guide, ending with this hodgepodge of design.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/card_gibberish.png" alt="Amazon cards examples">
+                <p class="project__img-caption">Some cards and prices examples of the current Amazon app</p>
+            </div>
+            
+            <p class="project__p">
+                When I had the app screens cloned, I conducted a <strong>Visual Competitive Analysis</strong>. I selected <span class="italic">Aliexpress, 
+                Alibaba</span> and <span class="italic">Ebay</span> as direct competitors and analyzed their App overall style and design. First of all I 
+                saw that white background and clean UI was a point to consider, as thousands of different pictures of 
+                items of all colors possible would fill an app with these characteristics.<br><br>
+                
+                Another thing I realized is that even though some of them took care of some elements in a different and 
+                maybe more efficient way, consistency was not a strong point for these apps. It seems that it is a consistent 
+                problem in big online marketplaces. Maybe due to constant updates of the fact that thousands of elements 
+                are shown there, it seems that they don't have too much consideration for consistency in their design in 
+                general.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/competitive_analysis.png" alt="competitive analysis">
+                <p class="project__img-caption">Some cards and prices examples of the current Amazon app</p>
+            </div>
+            
+            <p class="project__p">
+                After this brief research, I started thinking about my own design. So firstly, in order to put my ideas in order 
+                and clarify the mood I wanted to transmit with my design, I chose my <span class="bitalic">Brand Attributes</span>, and from there, I 
+                assembled a <span class="bitalic">Moodboard</span>.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/moodboard.png" alt="moodboard">
+                <p class="project__img-caption">The Brand Attributes that Amazon most arouse in me and that in my opinion should reflect</p>
+            </div>
+
+            <p class="project__p">
+                And following some of the insights I got from people when they analyzed the Moodboard.
+            </p>
+
+            <div class="project__img project__img-smaller">
+                <img src="./assets/moodboard_testing.png" alt="moodboard testing">
+                <p class="project__img-caption">The Brand Attributes that Amazon most arouse in me and that in my opinion should reflect</p>
+            </div>
+
+            <p class="project__p">
+                Now the hard part began. I had to develop the new identity for Amazon, a massive corporation that probably spent 
+                (and keep spending) thousands of dollars in their identity. I had to break all the standards of what people think 
+                when they think about Amazon, I didn’t want to create a better identity, but to present an alternative that worked as 
+                well. So I started thinking about the <span class="bitalic">Brand Colors</span>. When I thought about Fast I couldn’t help it to think about Flash, 
+                the superhero about DC Comics, and his red suit.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/flash.jpg" alt="picture of DC's superhero Flash">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                So for me Fast was Red, but I didn’t want the Red people have always in mind when they think about this color 
+                (Ferrari Red), so I went for a slightly different Red for my <span class="bitalic">Primary color</span>. For <span class="bitalic">Secondary color</span> I just had a 
+                darker version of this colour, and for <span class="bitalic">Accent color</span> I went for a Pistachio, as I needed a colour that contrasted 
+                well with my Red, and a Green could be an option. For <span class="bitalic">Neutral colors</span> I went for a Grays scale with this 
+                “reddish” little percentage.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/colors.png" alt="colors">
+                <p class="project__img-caption">Behold the new colors for Amazon!</p>
+            </div>
+
+            <p class="project__p">
+                The next step was to define the <span class="bitalic">Typography</span>. I wanted the design to be clean, geometrical and well organized, so I went for a 
+                geometrical font named <span class="italic">Jost</span>.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/typography.png" alt="Jost font">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Last but not least, I wanted to recreate the Amazon Logo as well. I am well aware of the Amazon logo story (Beginning at the “A” in “Amazon” 
+                and ending at the “Z”, this design element of the Amazon logo is meant to portray the message that Amazon sells everything from “A” to “Z”). 
+                But I wanted to do something different, always having this efficiency and quickness I wanted to transmit in my new identity. So I used Jost 
+                font in capital letters to white “AMAZON” and used this arrow as well, but to point directly to the “O”, as if it were a target. This is the result.
+            </p>
+
+            <div class="project__img project__img-smaller">
+                <img src="./assets/logo_transformation.png" alt="Jost font">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Finally, I could come up with a complete <span class="bitalic">Style Tile</span>, using the colours, typography and overall mood 
+                I defined for this project.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/style_tile.png" alt="style tile">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                The following was to solve the inconsistency problem in the Amazon current app. I simply defined a clear <span class="bitalic">Product Card system</span>, 
+                well-structured and defined, ready to be used in every situation needed. For this, I defined two Product Card sizes and two “option” cards. An easy system 
+                allowed to create any combination for a card with coupons, sales discounts and determine if it is a Prime product or not.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/standard_cards_system.png" alt="new cards system">
+                <p class="project__img-caption">Standardized card system for this redesign</p>
+            </div>
+
+            <p class="project__p">
+                With all this, I started the redesign itself. I wanted to keep in mind the Style Tile I chose, but also the clarity and 
+                minimalism that, in my opinion, are necessary for a marketplace app.<br><br>
+
+                In this way, I wanted to keep the white as much as possible, but trying to give depth to the elements so that the design 
+                did not look too flat. On the other hand, the regularity of the product cards helped a lot to maintain the feeling of 
+                organization and clarity, especially on the Home page. Additionally, the sections of the Profile Page looked much more 
+                ordered this way too.<br><br>
+
+                Finally, I didn't want to apply big design changes to the product page, just give a bit of consistency in the design and 
+                use of colors.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/redesign.png" alt="Amazon app redesign screenshots">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                To better understand the changes I applied to the app though, better try the prototype yourselves:
+            </p>
+
+            <div class="iframe-container">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgnNlWG0jM6vrcjg2NLDkQK%2FP3_Marc_Design-File%3Fpage-id%3D116%253A21%26node-id%3D1695-2922%26viewport%3D1288%252C1459%252C0.26%26t%3Dw9ptzvLlfYzDwnaH-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D1695%253A2922" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="project__subtitle project_3__subtitle">Learning Outcomes</h2>
+
+            <p class="project__p">
+                <ul class="indented">
+                    <li>I learned how to deconstruct the user interface design of an existing product in order to understand in better.</li>
+                    <li>Improved the performance of visual competitive analysis.</li>
+                    <li>Documentation of the brand identity, the visual components and the design principles of the product.</li>
+                    <li>That redesigning an existing app can be very difficult, but rewarding in the end.</li>
+                </ul>
+            </p>
+
+            <h2 class="project__subtitle project_3__subtitle">Conclusion</h2>
+
+            <p class="project__p">
+                I learned a lot with this project. The best way to learn how to do a thing is to try it, and I wanted to do a lot of things 
+                with this project and searched how to do it in Figma. This was definitely a good practice exercise. Of course, I don’t even 
+                try to compete with Amazon designers here, but I feel satisfied with the result, trying to organize a bit the madness that 
+                the Amazon World is.<br><br>
+
+                Thank you very much for your time.
+            </p>
+            
+        </section>
+
+        <!--contact banner-->
+        <section class="contact-banner">
+            <h2 class="section__title">Let's work together!</h2>
+            <a href="/src/contact/contact.html">
+                <button class="contact-banner__button">Contact Me</button>
+            </a>
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logos">
+                    <a href="/index.html">
+                        <img class="footer__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                    </a>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/marcruizrullo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__marc">marcruizrullo.com - 2024</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/toggle.js"></script>
+        
+    </body>
+</html>

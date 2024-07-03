@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Ruiz</title>
+
+        <!--normalize.css provides a consistent baseline for styles across different browsers-->
+        <link rel="stylesheet" href="/css/normalize.css">
+
+        <!--link to font awesome icons and assets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	   
+        <!--link to style.css-->
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+   
+    <body>
+        <!--navigation bar-->
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <a href="./assets/logo.svg" style="text-decoration: none; color: inherit;">
+                        <img class="nav__symbol" src="assets/home/img/logo.svg" alt="marcruizrullo.com logo">
+                        <p class="nav__logo-text">Marc Ruiz <br> UX/UI Designer</p>
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="/src/contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--header project title-->
+
+        <section class="project__title">
+            <img class="project__title-img" src="./assets/cover.png" alt="amazon redesign header">
+        </section>
+
+        <!--content-->
+
+        <section class="project__content">
+        
+            <p class="project__p">
+                Finally we started the final project. After some comings and goings, BeKind was settled as our client for this 
+                project. BeKind is (in 2023) a very early stage organization that wants to develop a digital online marketplace 
+                to connect companies and individuals who want to donate all kinds of items with NGOs and Charities that would 
+                give those items a second life. This platform is intends to contibute to the circular economy, to reducing waste 
+                and saving the environment.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/concept.png" alt="bekind concept">
+                <p class="project__img-caption">Some Hi-Fi prototype screens</p>
+            </div>
+
+            <p class="project__p">
+                We started by conducting a kick-off meeting with BeKind to get to know each other and know a little bit more 
+                about their project and the challenge they were presenting us to be solved.<br><br>
+
+                It seems that BeKind is at a very early stage of their development, as they are currently searching for investors, 
+                but they lacked any visual idea of how their donations platform would be or look, although they had a very thorough 
+                market analysis and a list of possible organisations that could benefit from their platform a lot. They provided 
+                us with this valuable information and others that would smooth the start of this project.
+            </p>
+
+            <h2 class="project__subtitle project_5__subtitle">Empathize</h2>
+
+            <p class="project__p">
+                After this first meeting we started contacting Charities and NGOs to set meetings and interview them as potential 
+                users for this app, from the perspective of the beneficiary of these donations as a user flow. In the meantime 
+                when we waited for answers, we conducted some interviews with individual donors, people that are used to donating 
+                items or are willing to do it, and some interesting insights came. It seems that although people are willing to 
+                donate items the majority of them are not willing to pay for the transport of these items to the Charity 
+                (specially required if the item you donate is big and you need to wire a moving company or rent a van for 
+                example to do the trick).<br><br>
+
+                Finally we managed to schedule some Charities/NGOs interviews with some members of those, and again very helpful 
+                insights came up, but this time from the other side of the donation process. The main topic here was that although 
+                is very helpful that people donate their items that don’t need anymore, they should conduct an initial filtering 
+                thinking for each item if it is in a sufficient good condition to be used for others, so the donating process does 
+                not become just another way to get rid of the things you do not want anymore.<br><br>
+
+                We wanted to interview the last party in this process, that would be the donor companies, which tend to have a 
+                slightly different donation process than the individual donors. We tried contacting them, but with the time we 
+                had it was very difficult to schedule interviews. We managed to interview a former worker of a very big company 
+                that is used to donating items and money to charities, but of course despite it being valuable information, it was 
+                not primary information. We managed to contact the CEO of a British company that produces kitchens tools and 
+                donates items that have little defects, enough to not be able to be sold, but still being ambe to be used. 
+                It was a very short interview though, and we couldn’t get all the information we wanted from there to have all 
+                the pictures for the company's donation process.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/interview_insights.png" alt="interviews insights">
+                <p class="project__img-caption">Some insights from all the people we interviewed</p>
+            </div>
+
+            <p class="project__p">
+                After realizing that we did not have all the information we wanted for the Companies Userflow, we decided to focus 
+                just on the Individual donors and Charities/NGOs User Flows for this project.<br><br>
+
+                Paralelly to all the Interviews, we got to conduct some Secondary Research. For this, we focused on donations of material 
+                items, not money and on Charities that sell second-hand items. We discovered that just a quarter of the items sent to 
+                Charities shops is sold locally. The rest in the end has to be resold abroad, recicled or reprocessed into other things.<br><br>
+
+                Additionally, to better understand how the other similar platforms worked, we analyzed them.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/features_table.png" alt="features table">
+                <p class="project__img-caption">Some insights from all the people we interviewed</p>
+            </div>
+
+            <h2 class="project__subtitle project_5__subtitle">Define</h2>
+
+            <p class="project__p">
+                First things first, we grouped all the insights we got from pur interviews in an Affinity Diagram, so we could clearly 
+                see the main topics and groups we had to start working.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/affinity_diagram.png" alt="affinity diagram">
+                <p class="project__img-caption">In the Affinity Diagram we added the insights from the Client and the few insights we could get from the Companies that donate items usually.</p>
+            </div>
+            
+            <p class="project__p">
+                Next step was to define the Empathy Maps with all the information we got. In this project we needed two of them, one 
+                for the Individual Donors and the other for the Charities/NGOs.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/donors_empathy_map.png" alt="donors empathy map">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <div class="project__img">
+                <img src="./assets/ngos_empathy_map.png" alt="charities and ngos empathy map">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Summarizing, we were able to identify the following <strong>pain points</strong> in which we could start working on:<br><br>
+                <strong>Donors</strong>
+                <ul class="indented">
+                    <li>They receive useless items or items not in a good condition to be used.</li>
+                    <li>They sometimes struggle to get specific items they need.</li>
+                    <li>No warehouses, they have to reject some donations.</li>
+                    <li>They sometimes do not have the means to get the items being donated.</li>
+                </ul>
+                <br>
+                <strong>Charities/NGOs</strong>
+                <ul class="indented">
+                    <li>Donating clothes could feel like putting them in the trash.</li>
+                    <li>Finding a charity / place to donate can be hard.</li>
+                    <li>Choosing what to donate is also hard.</li>
+                    <li>Lack of clear information about the whole process, from what is needed to where does it go.</li>
+                </ul>
+            </p>
+            <br>
+            <p class="project__p">
+                Next step was to define our User Personas, as we dah allready all the information needed for that. We created two 
+                User Personas, one for a Charity Worker, another for an Individual Donor, and finally we created a Lean User 
+                Persona for a Company Worker with the little information we gathered on the matter and some assumptions we got 
+                from the other parties involved.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/charity_worker_user_persona.png" alt="charity worker user persona">
+                <p class="project__img-caption">Toni, our Charity Worker User Persona</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/individual_donor_user_persona.png" alt="individual donor user persona">
+                <p class="project__img-caption">Maria, our Individual Donor User Persona</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/company_worker_lean_user_persona.png" alt="company worker lean user persona">
+                <p class="project__img-caption">Carol, our Company Worker Lean User Persona</p>
+            </div>
+            
+            <p class="project__p">
+                Following up, we built the User Journey Maps for Toni and Maria. For that we first tried to identify the journeys 
+                each of them got, either trying to get the items they need or donate the items they don’t need anymore. After that 
+                we identified the painpoints in each journey and consequently the opportunities that they offered us.
+            </p>
+
+            <div class="project__img">
+                <img src="./assets/charity_worker_journey.png" alt="charity worker user journey">
+                <p class="project__img-caption">Carol, our Company Worker Lean User Persona</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/individual_donor_journey.png" alt="individual donor user journey">
+                <p class="project__img-caption">Carol, our Company Worker Lean User Persona</p>
+            </div>
+
+            <p class="project__p">
+                Finally, with the Empathy Maps, User Personas and Journey Maps clearly defined, the last thing to do in the Define 
+                step was to state our Problem Statements for Individual Donors and for Charities/NGOs.<br><br>
+            </p>
+
+            <p class="strong underline">Charities/NGOs Problem Statement</p>
+                
+            <p class="indented bitalic">
+                “Charities and NGO’s need to find a way to get good quality items when they need them 
+                because locating, sorting and storing items is difficult, expensive and time-consuming.”
+            </p><br>
+
+            <p class="strong underline">Individual Donors Problem Statement</p>
+        
+            <p class="indented bitalic">
+                “People who have material items to give away need to find a way to donate them in a quick 
+                and easy way because finding a charity is complicated and selling the items is a more straight forward process.”
+            </p>
+            
+            <h2 class="project__subtitle project_5__subtitle">Ideate</h2>
+
+            <p class="project__p">
+                In this step we started brainstorming and creating possible solutions for our users problems. To be honest, on the 
+                Define part of the process we already had some ideas, and even a clear sketch of how this platform should be. But 
+                nonetheless, we created some Crazy 8s to see if more ideas and possible features could come up.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/crazy_8s.png" alt="crazy 8s">
+                <p class="project__img-caption">Our Crazy 8s exercise. Some interesting ideas came from it</p>
+            </div>
+
+            <p class="project__p">
+                After that, we created a MOSCOW Map. There we added the requirements from our Client, the ideas that came up 
+                from the Crazy 8s, and all the things we thought of during the process. The platform we were going to design was 
+                beginning to take shape.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/moscow_map.png" alt="moscow map">
+                <p class="project__img-caption">Our MOSCOW Map</p>
+            </div>
+
+            <p class="project__p">
+                Later, we worked on our Minimum Viable Product, making it clear what the minimum qualities and features would be
+                 for our product to work. It is below.
+
+                <p class="bitalic indented">“Be Kind is a web platform that connects individuals and companies who want to donate 
+                    and charities and NGO’s, with specific registration processes, allowing users to filter, locate and claim the 
+                    items being donated, set up alerts or wishlists, and notificating the donors when the item has been chosen.”
+                </p>
+                <br>
+                With all these ideas clear in mind, we started thinking about how the Site Map could look like. We had clearly 
+                that at this point, at least two User Flows were necessary, so we added to the Site Map two different Sign Up/Log 
+                in processes. 
+                <br><br>
+                All site content would be accesible to view for not logged in users, but to actually use the service, a Sign Up 
+                process will be required.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/site_map.png" alt="site map">
+                <p class="project__img-caption">Site Map</p>
+            </div>
+
+            <p class="project__p">
+                And as mentioned above, two different Userflows were required for this project, as at least we needed two different 
+                paths, one for Donors uploading items and another for Charities/NGOs claiming them.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/charities_userflow.png" alt="charities/NGOs userflow">
+                <p class="project__img-caption">Charities/NGOs Userflow</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/donor_userflow.png" alt="individual donors userflow">
+                <p class="project__img-caption">Individual Donors Userflow</p>
+            </div>
+
+            <h2 class="project__subtitle project_5__subtitle">Prototype</h2>
+
+            <p class="project__p">
+                With all the ideas plainly in our minds, the next step finally was to start prototyping. For it, we both created 
+                a Low-fi prototype. We put them in common, explained it and used the best parts of each to create a final Low-fi 
+                prototype, ready to be tested.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/low-fi.png" alt="low fis">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                For it we conducted some Concept Testing. A lot of useful insights came up from that, below are some of them.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/concept_testing.png" alt="concept testing insights">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Some of the insights we got that we implemented in our Mid-Fi were for instance the reception of positive feedback 
+                once you have uploaded a new item or when you accept the claim of a Charity/NGO. We received as well some insights 
+                to improve the usability of the website, relocating elements or making them more obvious to the user.
+                <br><br>
+                For our Mid-fi Prototype, we used all the insights we got from Concept Testing. We refined it and relocated 
+                some elements in the screens.
+            </p>
+            
+            <div class="project__img project__img-small">
+                <img src="./assets/mid-fi.png" alt="mid-fi">
+                <p class="project__img-caption">Some screens of our Mid-Fi</p>
+            </div>
+
+            <p class="project__p">
+                Now it was time for Usability Testing. In this stage we iterated a lot. It was the stage where the prototype evolved 
+                more, using valuable insights that we got in our tests. Some of the users found missing some features that considered 
+                mandatory in a platform like this. For example the ability to rate or report users, to ensure a minimum of quality 
+                in its functioning, as well as to regulate the possible abuses that could occur during the exchange of items.
+                <br><br>
+                Another key feature that we forgot about is the ability to check the Charity/NGO that claimed your item before accept 
+                the exchange, to ensure that their values agree with those of the donor.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/usability_test.png" alt="usability test insights">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                The next step was to start thinking of our Hi-Fi Prototype, and to build a Style for it. The first thing we did fot 
+                it was to think about our Brand Attributes and to  build a Moodboard that expressed them.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/moodboard.png" alt="moodboard">
+                <p class="project__img-caption">Moodboard made collaboratively between us</p>
+            </div>
+
+            <p class="project__p">
+                We tested the moodboard, and the testees gave almost the exact attributes that we got, so we started thinking of 
+                our Style Tile.
+                <br><br>
+                We wanted a clear yet modern Typography for our platform, so we agreed to use the <strong>Satoshi</strong> Font Family. 
+                <br><br>
+                Choosing the colors was not so easy. Initially after several attempts we agreed to use the <span class="italic">Navy Blue</span> 
+                we used at the end and a <span class="italic">Grass Green</span>. We had a meeting with the client to approve these colors, and 
+                they told us that they did not exactly reflect what they envisioned for their platform, so we had to change them. At the end we added 
+                <span class="italic">Turquoise</span> and <span class="italic">Yellow</span> to <span class="italic">Navy Blue</span>, thus creating 
+                the colors of the brand. 
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/style_tile.png" alt="style tile">
+                <p class="project__img-caption">Final Style Tile</p>
+            </div>
+
+            <p class="project__p">
+                At this point, we could begin to apply our style to the Mid-fi. This was a slow and tedious process, in which even after 
+                some additional usability tests we made some changes in usability issues, since we realized that some elements did not 
+                have a clear hierarchy that affected the user flow. After a lot of changes and improvements we came up with our Hi-Fi 
+                prototype.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/hi-fi.png" alt="hi-fi screens">
+                <p class="project__img-caption">Example screens of our Hi-fi</p>
+            </div>
+
+            <p class="project__p">
+                We conducted some Desirability Testing at this point, and below you can find some of the attributes we got.
+            </p>
+
+            <div class="project__img project__img-small">
+                <img src="./assets/desirability_test.png" alt="desirability testing insights">
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Below you can find and try the final Hi-Fi.
+            </p>
+
+            <div class="iframe-container">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FncAigH5hMiiUk9pWuPtXmQ%2FP5_Marc_Design-File%3Fpage-id%3D2%253A4134%26node-id%3D3574-12615%26viewport%3D1489%252C763%252C0.04%26t%3D8swUK3keR78yGnT5-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D3574%253A12615" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="project__subtitle project_5__subtitle">Learnings</h2>
+
+            <p class="project__p">
+                In this project I learned a lot. It was the first project to work from the beginning to the end with a client, 
+                and with various touch points and approvals during the process. This in the end proved to be encouraging but 
+                challenging as well.<br><br>
+
+                Additionally, this was the first project I worked in which several user personas and user flows were involved, 
+                so it was more demanding. Advancing through the project we had to have in mind  at all times that everything we 
+                settled affected at least two types of users, so it was more difficult to advance, but more rewarding to see that 
+                everything fell into place in the end. 
+            </p>
+
+            <h2 class="project__subtitle project_5__subtitle">Next Steps</h2>
+
+            <p class="project__p">
+                <ul>
+                    <li>
+                        Throughout this project, we had a hard time not being able to obtain the necessary information to create 
+                        the Userflow for the companies in time. So the next step would be to schedule interviews with companies 
+                        that are used to donate items to charity and develop this third Userflow.
+                    </li>
+                    <br>
+                    <li>
+                        The second thing that we have been longing to do but we haven't had enough time for that either is to 
+                        create the mobile and tablet versions, or at least provide some screens to have a clear idea of how it 
+                        would look.
+                    </li>
+                    <br>
+                    <li>
+                        Last but not least we want to implement more features that we thought of during the process and re-iterate
+                         this current version and conduct more usability testing.
+                    </li>
+                </ul>
+            </p>
+
+            <h2 class="project__subtitle project_5__subtitle">Conclusion</h2>
+
+            <p class="project__p">
+                This has been our last Ironhack project, but also, in my opinion, the most fruitful and the one I'm most proud of. 
+                We have been able to deal with a client who, although he was kind and understanding throughout the project, also 
+                had very clear ideas about the direction he wanted the project to take. It is satisfying though, to see that in 
+                the end, after the difficulties and the short delivery time, all the pieces fit and that the result is satisfactory 
+                and even beautiful.
+                <br><br>
+                I have to thank my teammate Irina, who proved to be a very good project partner, useful and understanding. I think 
+                we worked perfectly together.
+                <br><br>
+                I hope you enjoyed reading this case study and in any case, thank you for reading it.
+            </p>
+
+        </section>
+
+        <!--contact banner-->
+        <section class="contact-banner">
+            <h2 class="section__title">Let's work together!</h2>
+            <a href="/src/contact/contact.html">
+                <button class="contact-banner__button">Contact Me</button>
+            </a>
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logos">
+                    <a href="/index.html">
+                        <img class="footer__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                    </a>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/marcruizrullo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__marc">marcruizrullo.com - 2024</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/toggle.js"></script>
+        
+    </body>
+</html>
