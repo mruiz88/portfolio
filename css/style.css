@@ -521,7 +521,6 @@ nav {
     border: 2px solid white; /* White border */
     color:var(--clr-light); /* White text color */
     padding: 0.75rem 1rem; /* Padding for the button */
-    
     border-radius: 0.5rem; /* Rounded edges */
     font-size: var(--fs-body); /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
@@ -532,65 +531,6 @@ nav {
 .contact-banner__button:hover {
     background-color: white; /* White background on hover */
     color: var(--clr-dark); /* Dark text color on hover */
-}
-
-/* footer */
-
-.footer {
-    background-color: #272724;
-    color: #fff;
-    padding: 2em 0em;
-    width: 100%;
-}
-
-.footer__bottom {
-    position: fixed;
-    bottom: 0;
-}
-
-.footer__content {
-    max-width: 1920px; /* Set a maximum width */
-    margin: 0 auto; /* Center horizontally */
-    padding: 0 1.2em; /* Add padding on sides */
-}
-
-@media (min-width: 800px) {
-    .footer__content {
-        padding: 0 2em; /* Add padding on sides */
-    }
-}
-
-.footer a{
-    color: inherit;
-    text-decoration: none;
-}
-
-.footer__logos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1920px;
-}
-
-.footer__symbol {
-    height: 2.5rem;
-    filter: brightness(0) invert(1); /* Change the color to white using filters */
-}
-
-.footer__linkedin i {
-    font-size: 2rem; /* Adjust as needed */
-    margin-left: auto;
-}
-
-.footer__symbol:hover,
-.footer__linkedin:hover {
-    opacity: .50;
-}
-
-@media (max-width: 600px) {
-    .footer__info{
-        text-align: center;
-    }
 }
 
 /* projects */
@@ -694,16 +634,10 @@ nav {
 /*contact form*/
 
 .form {
-    width: 90%;
-    max-width: 600px;
-    padding-top: 14rem;
-    margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-    .form {
-        padding-top: 10rem;
-    }
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
 }
 
 .form__imput {
@@ -721,7 +655,8 @@ nav {
     display: grid;
     gap: 1em;
     grid-auto-columns: 100%;
-    margin-bottom: 5rem;
+    max-width: 600px;
+    margin-top: -10vh;
 }
 
 .form__imput-message{
@@ -729,9 +664,9 @@ nav {
     padding: 1em 0.5em;
 }
 
-.form__cta {
+.form__button {
     background-color: var(--clr-dark); /* Transparent background */
-    border: 2px solid var(--clr-dark);
+    border: 1px solid var(--clr-dark);
     color:var(--clr-light); /* White text color */
     padding: 0.75rem 1rem; /* Padding for the button */
     border-radius: 0.5rem; /* Rounded edges */
@@ -740,9 +675,10 @@ nav {
     margin-top: 1em;
 }
 
-.form__cta:hover {
-    background-color: white; /* White background on hover */
-    color: var(--clr-dark); /* Dark text color on hover */
+.form__button:hover {
+    background-color: var(--clr-dimdark); /* White background on hover */
+    color: var(--clr-light); /* Dark text color on hover */
+    border: 1px solid var(--clr-dimdark);
 }
 
 /*thank you page*/
@@ -769,16 +705,104 @@ nav {
 
 .sent__title-h2 {
     text-align: center;
-    margin-bottom: 1em;
 }
 
 .sent__title-icon {
     font-size: 4rem;
-    margin-bottom: .5em;
     color: var(--clr-accent);
+    margin-bottom: .2em;
 }
 
 .sent__subtitle {
     margin-left: 1.2rem;
     margin-right: 1.2rem;
+}
+
+.back__button {  
+    width:fit-content;
+    background-color: transparent; /* Transparent background */
+    border: 2px solid var(--clr-dark); /* White border */
+    color:var(--clr-dark); /* White text color */
+    padding: 0.75rem 1rem; /* Padding for the button */
+    border-radius: 0.5rem; /* Rounded edges */
+    font-size: var(--fs-body); /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    gap: 1rem;
+}
+
+.back__button:hover {
+    background-color: var(--clr-dimdark); /* White background on hover */
+    color: var(--clr-light); /* Dark text color on hover */
+    border: 2px solid var(--clr-dimdark); /* White border */
+}
+
+.back__button-arrow {
+    padding-right: 5px;
+}
+
+.back__button-link {
+    width:fit-content;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer */
+
+.footer {
+    background-color: #272724;
+    color: #fff;
+    padding: 2em 0em;
+    width: 100%;
+}
+
+.footer__bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__content {
+    max-width: 1920px; /* Set a maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 1.2em; /* Add padding on sides */
+}
+
+@media (min-width: 800px) {
+    .footer__content {
+        padding: 0 2em; /* Add padding on sides */
+    }
+}
+
+.footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+}
+
+.footer__symbol {
+    height: 2.5rem;
+    filter: brightness(0) invert(1); /* Change the color to white using filters */
+}
+
+.footer__linkedin i {
+    font-size: 2rem; /* Adjust as needed */
+    margin-left: auto;
+}
+
+.footer__symbol:hover,
+.footer__linkedin:hover {
+    opacity: .50;
+}
+
+@media (max-width: 600px) {
+    .footer__info{
+        text-align: center;
+    }
 }
