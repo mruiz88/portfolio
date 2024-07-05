@@ -650,7 +650,6 @@ nav {
     grid-auto-columns: 100%;
     max-width: 600px;
     padding: 0 1.2rem;
-    margin-top: -10vh;
 }
 
 .form__imput-message{
