@@ -496,6 +496,12 @@ nav {
     z-index: 10;
 }
 
+@media (max-width: 800px) {
+    .portfolio__caption {
+        display: none;
+    }
+}
+
 .portfolio__item:hover .portfolio__caption {
     opacity: 1;
 }
@@ -633,6 +639,16 @@ nav {
     height: 100vh; /* Full viewport height */
 }
 
+.form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+    max-width: 600px;
+    padding: 0 1.2rem;
+    margin-top: -12vh;
+}
+
 .form__imput {
     font-family: inherit;
     font-size: var(--fs-body);
@@ -641,15 +657,6 @@ nav {
     border: none;
     border: 1px solid var(--clr-dimdark);
     outline: none;
-}
-
-.form__container{
-    width: 100%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
-    max-width: 600px;
-    padding: 0 1.2rem;
 }
 
 .form__imput-message{
