@@ -690,6 +690,7 @@ nav {
     margin: 0 auto;
     gap: 1em;
     margin-top: -10vh;
+    padding: 0 1.2rem;
 }
 
 .sent__title {
@@ -709,6 +710,7 @@ nav {
 .sent__subtitle {
     margin-left: 1.2rem;
     margin-right: 1.2rem;
+    text-align: center;
 }
 
 .back__button {  
@@ -736,7 +738,7 @@ nav {
 
 .back__button-link {
     width:fit-content;
-    margin-top: 4em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
 }
