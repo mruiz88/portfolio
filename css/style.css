@@ -50,6 +50,8 @@
     --clr-project3: #ce2b4a;
     --clr-project4: #d18671;
     --clr-project5: #01847c;
+    --clr-project6: #708473;
+    --clr-project7: #2FB6BC;
 
     --fs-h1: 2rem;
     --fs-h2: 1.5rem;
@@ -134,6 +136,7 @@ strong { font-weight: var(--fw-bold);}
 
 .indented {
     margin-left: 2em;
+    line-height: 1.4rem;
 }
 
 .indented li {
@@ -182,6 +185,14 @@ strong { font-weight: var(--fw-bold);}
 
 .project_5__subtitle {
     color: var(--clr-project5);
+}
+
+.project_6__subtitle {
+    color: var(--clr-project6);
+}
+
+.project_7__subtitle {
+    color: var(--clr-project7);
 }
 
 .project__p {
