@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Ruiz</title>
+
+        <!--normalize.css provides a consistent baseline for styles across different browsers-->
+        <link rel="stylesheet" href="/css/normalize.css">
+
+        <!--link to font awesome icons and assets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	   
+        <!--link to style.css-->
+        <link rel="stylesheet" href="/css/style.css">
+
+        <!--link to favicon-->
+        <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+
+        <!--link to lightbox-->
+        <link href="/js/lightbox/dist/css/lightbox.css" rel="stylesheet">
+    </head>
+   
+    <body>
+        <!--navigation bar-->
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <a href="/index.html" style="text-decoration: none; color: inherit;">
+                        <img class="nav__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                        <p class="nav__logo-text">Marc Ruiz <br> UX/UI Designer</p>
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="/pages/contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--header project title-->
+
+        <section class="project__title">
+            <img class="project__title-img" src="./assets/cover.png" alt="girona fibra header">
+        </section>
+
+        <!--content-->
+
+        <section class="project__content">
+            
+            <p class="project__p">
+                One of the most exciting projects I did in <strong>E2S Creativa</strong> was the web design for <strong>Girona Fibra</strong>, a telecommunications company from the Spanish province of 
+                Gironès, part of the Spanish telecommunications group Avatel.
+            </p>
+
+            <div class="project__img project__img-smaller">
+                <a href="./assets/gironafibra.jpg" data-lightbox="image-1">
+                    <img src="./assets/gironafibra.jpg" alt="girona fibra logo">
+                </a>
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                Avatel recently acquired Girona Fibra, and despite being a company very rooted in its area, they didn't have a website up to par, so we were commissioned to 
+                redesign it along with a complete marketing campaign. 
+            </p>
+
+            <div class="project__img project__img-smaller">
+                <a href="./assets/basketgirona.jpg" data-lightbox="image-1">
+                    <img src="./assets/basketgirona.jpg" alt="girona fibra logo">
+                </a>
+                <p class="project__img-caption">Basket Girona, the basketball team of which Girona Fibra is a sponsor</p>
+            </div>
+
+            <p class="project__p">
+                The schedule was tight, as Girona Fibra was to become a new sponsor for Basket Girona Club the next season, which was two months from then. The Girona Fibra 
+                logo would be visible everywhere at the matches, so their new website would have to be already published and properly working.<br><br>
+
+                As a <span class="italic">E2S Creativa</span>’s web designer, my role was to think, design, and hand to the developers a valid web design for the new Girona Fibra website.
+            </p>
+
+            <h2 class="project__subtitle project_7__subtitle">Briefing Keylines</h2>
+
+            <p class="project__p">
+                We did a kick-off meeting with Avatel's marketing department which gave me the following briefing:
+                <ul class="indented">
+                    <li>They needed a design for the new Girona Fibra website, mobile and desktop viewports. They had their in-house developers, and given the little time we 
+                    had, my work was to develop a highly detailed design so they could develop it as fast as possible.</li>
+
+                    <li>Girona Fibra already had corporate branding, and they wanted to keep it. Therefore, I had to preserve the logo, colors, fonts, 
+                    and other elements that already existed and were used in other applications.</li>
+                    
+                    <div class="project__img project__img-smaller">
+                        <a href="./assets/sitemap.png" data-lightbox="image-1">
+                            <img src="./assets/sitemap.png" alt="girona fibra site map">
+                        </a>
+                        <p class="project__img-caption">Girona Fibra proposed site map</p>
+                    </div>
+
+                    <li>The <strong>sitemap</strong> they imagined was the following:<br><br>
+                        <ul>
+                            <li><strong>Home</strong> page with a header (mainly to show featured plans and promotions), a summary of plans, and promotional banners.</li>
+                            <li>Their plans, which were divided into <strong>Fiber</strong> and <strong>Fiber + Phone</strong> should have specific landing pages.</li>
+                            <li><strong>About us</strong> page.</li>
+                            <li><strong>Contact</strong> page.</li>
+                            <li><strong>News</strong> page.</li>
+                            <li><strong>Legals</strong> page.</li>
+                        </ul>
+                    </li>
+
+                    <li>The entire contracting process would be carried out by telephone, so the CTAs that the website would contain led to the same contact form, where the 
+                    user would specify which rate was of interest and the Girona Fibra agents would contact the user later.</li>
+                    
+                    <li>There was an existing customer online platform, so the user had to have easy access to it at all times. Their contact e-mail and Whatsapp number had 
+                    to be visible as well.</li>
+                </ul>
+            </p>
+            
+            <h2 class="project__subtitle project_7__subtitle">Competitive Analysis</h2>
+
+            <p class="project__p">
+                After the kick-off meeting and with all the information I had, the logical next step was to study the competitors, for structure, features, and other 
+                elements.<br><br>
+
+                I decided to analyze the websites of 3 of the biggest telecommunications companies in Spain, Vodafone, Movistar, and Orange. I decided to analyze these 
+                pages focusing especially on the structure and the properties that these offer.
+            </p>
+            
+            <div class="project__img project__img-small">
+                <a href="./assets/competitors_home.png" data-lightbox="image-1">
+                    <img src="./assets/competitors_home.png" alt="competitors home sites">
+                </a>
+                <p class="project__img-caption">Competitors Home pages</p>
+            </div>
+
+            <div class="project__img project__img-small">
+                <a href="./assets/competitors_plans.png" data-lightbox="image-1">
+                    <img src="./assets/competitors_plans.png" alt="competitors plan landings">
+                </a>
+                <p class="project__img-caption">Competitors Plan landing pages</p>
+            </div>
+
+            <p class="project__p">
+                <strong style="color: #2FB6BC;">Vodafone</strong>
+                <ul class="indented">
+                    <li>Static Header</li>
+                    <li>Featured plans</li>
+                    <li>Plan cards on Home</li>
+                    <li>Single landing page for each plan</li>
+                    <li>Featured plan and promotion banners</li>
+                    <li>FAQs on product pages</li>
+                </ul><br>
+                <strong style="color: #2FB6BC;">Movistar</strong>
+                <ul class="indented">
+                    <li>Without header banner (instead featured promotion cards)</li>
+                    <li>Without plan cards on Home</li>
+                    <li>Single landing page for each plan</li>
+                    <li>Featured plan and promotion banners</li>
+                    <li>FAQs on product pages</li>
+                </ul><br>
+                <strong style="color: #2FB6BC;">Orange</strong>
+                <ul class="indented">
+                    <li>Dynamic header (Carrousel)</li>
+                    <li>No Plan Cards on Home</li>
+                    <li>Category configurator instead of single plan landing page</li>
+                    <li>Featured plan and promotion banners</li>
+                    <li>FAQs on product pages</li>
+                </ul>
+            </p>
+
+            <h2 class="project__subtitle project_7__subtitle">Wireframe Design Process</h2>
+            
+            <p class="project__p">
+                I extracted a lot of information from my Competitor's Analysis, and with it and the briefing information, I started drafting a mid-fi wireframe, to start 
+                defining a basic structure.<br><br>
+
+                From the Competitor’s Analysis draw certain conclusions. Although 2 of 3 of the analyzed competitors had a single landing page for each plan, these mostly 
+                worked as a product page to be purchased, with an “extras configurator” before contracting the actual plan. As in Girona Fibra all the plan contracts are 
+                made on the phone and the extras were contracted along the phone contracting process, for me it made more sense to keep the plan landing pages to category 
+                pages (Fiber and Fiber + Phone).<br><br>
+
+                My main premise was to keep things simple, so I tried to extract the structural philosophy of the pages I analyzed and adapt it to the reality of Girona 
+                Fibra, an operator with fewer rates and promotions than its competitors, which allowed for a cleaner structure and intuitive.
+            </p>
+
+            <div class="project__img project__img-small">
+                <a href="./assets/mid-fi_1.png" data-lightbox="image-1">
+                    <img src="./assets/mid-fi_1.png" alt="initial mid-fi screens">
+                </a>
+                <p class="project__img-caption">Initial Mid-fi Screenshots</p>
+            </div>
+
+            <ul class="indented">
+                <li>On the Home page, I decided to have a carousel header, as it has more flexibility than a static header. Below I would place the Plan Cards showing the available 
+                    plans divided by the two existing categories.</li>
+                <li>As all the plan contracting was to be made by phone, I placed a contact form on the bottom of each page, so it would be easy for the user to find it and contact 
+                    Girona Fibra after reading all the information about their desired plan.</li>
+                <li>As I acknowledged that it was a common practice and it would help the web positioning, I placed a drop-down FAQs section below each Category landing, to be filled 
+                    with relevant and helpful information for the user.</li>
+                <li>Additionally, as the briefing stated, I placed a contact button (that would lead to the contact page) and contact information, which would be always visible.</li>
+            </ul>
+
+            <p class="project__p">
+                After finishing my Mid-fi draft I booked a meeting with Girona Fibra marketing department. They found the mid-fi wireframe very pertinent and aligned with 
+                their needs, just made some helpful observations:
+            </p>
+
+            <ul class="indented">
+                <li>They wanted a better segmentation and a more visual solution for the two categories on the Homepage.</li>
+                <li>They wanted to add an extras section on the Fiber + Phone page.</li>
+                <li>They wanted a more visual solution for reason selector on the Contact page as well.</li>
+            </ul>
+
+            <div class="project__img project__img-small">
+                <a href="./assets/mid-fi_2.png" data-lightbox="image-1">
+                    <img src="./assets/mid-fi_2.png" alt="amended mid-fi screens">
+                </a>
+                <p class="project__img-caption">Amended Mid-fi Screenshots</p>
+            </div>
+
+            <p class="project__p">
+                I decided to solve the Homepage and Contact page problem similarly implementing an animated selector that would act as a switch to change categories. 
+                Finally, I added cards for the extras part to maintain the design consistent.<br><br>
+
+                With all these changes applied, I could move forward to applying the style to my Mid-fi and creating a Hi-Fi prototype.
+            </p>
+
+            <h2 class="project__subtitle project_7__subtitle">Application of Style</h2>
+
+            <div class="project__img project__img">
+                <a href="./assets/styletile.jpg" data-lightbox="image-1">
+                    <img src="./assets/styletile.jpg" alt="style tile">
+                </a>
+                <p class="project__img-caption"></p>
+            </div>
+
+            <p class="project__p">
+                As I commented before, Girona Fibra already had a kind of corporate design system, wish although it was not very well defined, It sat some bases in 
+                color and typography that had to be respected.<br><br><br>
+
+                <strong style="color: #2FB6BC;">Color</strong><br><br>
+
+                The main color of Girona Fibra was #2FB6BC, a greenish blue (or bluish green, as you prefer ;) ). From this color, they used some gradients, 
+                specially a 50%. Finally they used a sort of bluish black (#1A1A1A) as a Black color.<br><br><br>
+
+                <strong style="color: #2FB6BC;">Typography</strong><br><br>
+
+                Girona Fibra typography is <strong>Aalto Sans Pro</strong>, in different weights.<br><br><br>
+
+                <strong style="color: #2FB6BC;">Iconography</strong><br><br>
+
+                Apart from the “wireless waves icon”, Girona fibra didn’t have a preestablished icon system, so I created one. I wanted icons to represent the most 
+                basic products a company in their field offered, but I wanted their shapes to be friendly and pleasing to the eye.<br><br><br>
+
+                <strong style="color: #2FB6BC;">Images</strong><br><br>
+
+                As I detected in my competitive analysis, the majority of telecommunications companies use many images of people, Avatel included, usually using 
+                technological products or carrying out actions according to the slogan of the promotion of the moment. With the help of my studio colleagues, we 
+                created images that met these requirements and were in line with the brand to be added on the website headers.
+            </p>
+
+            <h2 class="project__subtitle project_7__subtitle">Hi-Fi Design</h2>
+
+            <p class="project__p">
+                With the structure and style clear, I started to design the Hi-Fi prototype. In this stage, I started defining the Desktop viewport as well, since 
+                it was only a rearrangement of the elements present in the mobile viewport in this case. Still, I relocated and resized always thinking of the 
+                correct visualization and the correct legibility so that the final page could be responsive.<br><br>
+
+                For this phase, Girona Fibra provided claims and texts for the promotions, headers, and About Us page, and I adapted my structure and graphic 
+                elements to them.
+            </p>
+
+            <div class="project__img project__img-small">
+                <a href="./assets/hi-fi_mobile.png" data-lightbox="image-1">
+                    <img src="./assets/hi-fi_mobile.png" alt="hi-fi mobile screens">
+                </a>
+                <p class="project__img-caption">Hi-fi screenshots - Mobile</p>
+            </div>
+
+            <p class="project__p">
+                When I finished my design proposal, me and my colleagues arranged a meeting with Girona Fibra to show them the completed prototype in the two 
+                viewports, mobile and desktop, along with all the other deliverables of the marketing campaign we are preparing for them.
+            </p>
+
+            <div class="project__img project__img">
+                <a href="./assets/hi-fi_desktop.png" data-lightbox="image-1">
+                    <img src="./assets/hi-fi_desktop.png" alt="hi-fi desktop screens">
+                </a>
+                <p class="project__img-caption">Hi-fi screenshots - Desktop</p>
+            </div>
+
+            <p class="project__p">
+                They appreciated the design and found it to be quite aligned with their needs and expectations. They did not require any major changes, so it was 
+                time to prepare the file for the handoff to the developers.<br><br>
+
+                Here you can find the Figma file for the mobile and the desktop versions:
+            </p>
+
+            <strong style="color: #2FB6BC;">Mobile</strong><br><br>
+
+            <div class="iframe-container">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHZaD3GkYa1OqlecNuQCK8L%2Favatel_web-girona-fibra%3Fpage-id%3D1%253A2%26node-id%3D1-3%26viewport%3D1036%252C643%252C0.2%26t%3Dl92S7roy1Nz5Oxj5-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D1%253A3" allowfullscreen></iframe>
+            </div><br><br>
+
+            <strong style="color: #2FB6BC;">Desktop</strong><br><br>
+
+            <div class="iframe-container">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHZaD3GkYa1OqlecNuQCK8L%2Favatel_web-girona-fibra%3Fpage-id%3D48%253A3221%26node-id%3D48-3243%26viewport%3D623%252C292%252C0.27%26t%3DMl3xV9zXlmPDK0cB-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D48%253A3243" allowfullscreen></iframe>
+            </div>
+
+            <p class="project__p">
+                From the beginning, I already took into account the limited time we had to deliver the design and their time to implement it, and since no further 
+                collaboration with the developers was expected and required on my part while they were programming the website, I took charge of preparing a 
+                well-commented and clear design file, with the two viewports well differentiated and with the styles well defined, so that for them it would be the 
+                most understandable and the easiest to implement it.<br><br>
+
+                The part of the design that was going to have to be updated most often would be the header carousel slides in the Home, so I created some templates 
+                in which the creatives could be designed in three different sizes (or use these sizes to create them outside of Figma), so that these could be 
+                adapted and displayed correctly in any viewport.
+            </p>
+            <p class="project__p">
+                With this helper and some other tips, I believe that I created clear and concise deliverables, which contributed to a quick and correct coding of 
+                the design without major impediments.<br><br>
+
+                You can find the final result at the following link: <a href="https://www.gironafibra.cat/">Girona Fibra</a>.
+            </p>
+
+            <h2 class="project__subtitle project_7__subtitle">Reflection</h2>
+
+            <strong style="color: #2FB6BC;">Learnings</strong><br>
+
+            <p class="project__p">
+                <ul class="indented">
+                    <li><strong>Adaptability in Time Constraints:</strong> I learned to manage tight deadlines effectively while still delivering high-quality work. 
+                        Implemented ways to ensure a smooth transition to development.</li>
+                    <li><strong>Effective Briefing Practices:</strong> I realized the importance of clear and comprehensive briefings to accurately guide project goals.</li>
+                    <li><strong>Iterative Design Approach:</strong> I discovered the value of revising designs based on feedback to achieve better outcomes.</li>
+                    <li><strong>Client Collaboration:</strong> I learned to build strong relationships through open communication and responsiveness to feedback.</li>
+                    <li><strong>Innovative Problem-Solving Solutions:</strong> I learned to implement creative solutions to address design challenges and improve functionality.</li>
+                </ul>
+            </p><br>
+
+            <strong style="color: #2FB6BC;">Conclusions</strong><br><br>
+
+            <p class="project__p">
+                The redesign project for Girona Fibra was a comprehensive and rewarding experience that showcased the importance of aligning design processes with 
+                client needs and industry standards. By thoroughly understanding the client’s requirements, adapting design approaches to fit tight deadlines, and 
+                maintaining consistency with existing branding, I was able to deliver a website that met both functional and aesthetic goals.<br><br>
+
+                The iterative design process, guided by detailed feedback and collaborative efforts with the development team, allowed for continuous improvements 
+                and refinements. The emphasis on responsive design principles ensured that the final product provided a seamless user experience across various 
+                devices, which is crucial for today’s diverse digital landscape.<br><br>
+
+                Ultimately, this project reinforced the value of clear communication, effective problem-solving, and meticulous quality assurance. The successful 
+                launch of the Girona Fibra website not only enhanced their online presence but also solidified their position as a key player in the telecommunications 
+                sector in the region. This experience has further honed my skills in web design, client collaboration, and responsive design, which I will continue 
+                to apply to future projects.<br><br>
+
+                Thanks for reading!
+            </p>
+
+        </section>
+
+        <!--contact banner-->
+        <section class="contact-banner">
+            <h2 class="section__title">Let's work together!</h2>
+            <a href="/pages/contact/contact.html">
+                <button class="contact-banner__button">Contact Me</button>
+            </a>
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logos">
+                    <a href="/index.html">
+                        <img class="footer__symbol" src="./assets/logo.svg" alt="marcruizrullo.com logo">
+                    </a>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/marcruizrullo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__marc">marcruizrullo.com - 2024</p>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/toggle.js"></script>
+
+        <script src="/js/lightbox/dist/js/lightbox-plus-jquery.js"></script>
+        
+    </body>
+</html>
