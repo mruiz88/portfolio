@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marc Ruiz</title>
+
+        <!--normalize.css provides a consistent baseline for styles across different browsers-->
+        <link rel="stylesheet" href="/css/normalize.css">
+
+        <!--link to font awesome icons and assets-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	   
+        <!--link to style.css-->
+        <link rel="stylesheet" href="/css/style.css">
+
+        <!--link to favicon-->
+        <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+    </head>
+   
+    <body>
+        <!--navigation bar-->
+        <header>
+            <div class="header__content">
+                <div class="nav__logo">
+                    <a href="/index.html" style="text-decoration: none; color: inherit;">
+                        <img class="nav__symbol" src="assets/logo.svg" alt="marcruizrullo.com logo">
+                        <p class="nav__logo-text">Marc Ruiz <br> UX/UI Designer</p>
+                    </a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="/pages/about/about.html" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="/pages/contact/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--about me-->
+        <section class="about">
+            <img class="about__img" src="./assets/about_me.png" alt="a profile picture of Marc Ruiz smiling">
+            <div class="intro__text">    
+                <h2 class="about__title">
+                    My journey so far...
+                </h2>
+                <p class="section__subtitle--intro">
+                    I’m a former graphic designer from <strong>Barcelona</strong>, where I spent years working on creative projects and developing a 
+                    strong sense of visual design. Over time, I became more and more interested in how people interact with 
+                    technology, which led me to shift my focus and dive into the world of <strong>UX/UI design</strong>.<br><br>
+
+                    With my background in graphic design and the hands-on experience I’ve gained in responsive web design, 
+                    I’ve been able to bring together aesthetics and usability to create user-centered digital experiences. I’ve 
+                    always believed that design is not just about making things look great but about making them work well for 
+                    the people using them.<br><br>
+
+                    Technology has been a big part of my life for as long as I can remember. I’ve always been fascinated by the 
+                    way humans and computers connect, and I’ve always kept up with the latest trends and innovations. Video games 
+                    have also been a passion of mine, which has given me a unique perspective on interactive design and user 
+                    engagement.<br><br>
+
+                    With a solid background in both graphic design and user-centric digital design, I’ve worked on projects that 
+                    challenge me to find creative, functional solutions that truly meet user needs. I’m always excited to take on 
+                    new challenges and continue pushing the boundaries of what’s possible in design.<br><br>
+                </p>
+                
+            </div>
+        </section>
+
+        <!--contact banner-->
+        <section class="contact-banner">
+            <h2 class="section__title">Let's work together!</h2>
+            <a href="/pages/contact/contact.html">
+                <button class="contact-banner__button">Contact Me</button>
+            </a>
+        </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logos">
+                    <a href="/index.html">
+                        <img class="footer__symbol" src="assets/logo.svg" alt="marcruizrullo.com logo">
+                    </a>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/marcruizrullo">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <p class="footer__marc">marcruizrullo.com - 2024</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/toggle.js"></script>
+        
+    </body>
+</html>

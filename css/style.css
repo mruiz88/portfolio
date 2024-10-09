@@ -144,7 +144,7 @@ strong { font-weight: var(--fw-bold);}
 }
 
 .section__title {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .section__title--intro {
@@ -160,6 +160,11 @@ strong { font-weight: var(--fw-bold);}
 .section__subtitle--about {
     font-family: var(--ff-primary);
     line-height: var(--lh-mobile_body);
+}
+
+.about__title{
+    color: var(--clr-accent);
+    margin-bottom: 1.5em;
 }
 
 .project__subtitle {
@@ -409,13 +414,30 @@ nav {
     margin-bottom: 3rem;
 }
 
+.intro__button {
+    background-color: var(--clr-light); /* Transparent background */
+    border: 1.5px solid var(--clr-dark);
+    color:var(--clr-dark); /* White text color */
+    padding: 0.75rem 1rem; /* Padding for the button */
+    border-radius: 0.5rem; /* Rounded edges */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    margin-top: 2em;
+}
+
+.intro__button:hover {
+    background-color: var(--clr-dimdark); /* White background on hover */
+    color: var(--clr-light); /* Dark text color on hover */
+    border: 1.5px solid var(--clr-dimdark);
+}
+
 @media (min-width: 800px) {
     .intro {
         padding-top: 16rem;
         display: flex;
         flex-direction: row;
         gap: 3em;
-        max-width: 1200px;
+        max-width: 1000px;
         line-height: var(--lh-desktop_body);
     }
 
@@ -541,6 +563,50 @@ nav {
 .contact-banner__button:hover {
     background-color: white; /* White background on hover */
     color: var(--clr-dark); /* Dark text color on hover */
+}
+
+/* about me */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    line-height: var(--lh-mobile_body);
+}
+
+.about__img {
+    border-radius: 0.5rem;
+    display: block; /* Ensures the image is displayed as a block element */
+    max-width: 600px; /* Ensures the image does not exceed the container's width */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 1500px) {
+    .about {
+        padding-top: 15rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+        max-width: 1500px;
+        line-height: var(--lh-desktop_body);
+    }
+
+    .about__img {
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about__img {
+        margin-top: 8rem;
+        width: calc(100%); /* Ensure the image takes 100% of the container width minus some margin */
+        padding: 0; /* Remove padding, since it adds space inside the image element */
+        max-width: 100%; /* Prevent the image from exceeding the container's width */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
 }
 
 /* projects */
