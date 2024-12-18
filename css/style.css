@@ -871,7 +871,7 @@ nav {
 }
 
 .footer__linkedin i {
-    font-size: 2rem; /* Adjust as needed */
+    font-size: 1.5rem; /* Adjust as needed */
     margin-left: auto;
 }
 
@@ -892,7 +892,7 @@ nav {
     }
 
     .footer__linkedin i {
-        font-size: 1.8rem; /* Adjust as needed */
+        font-size: 1.5rem; /* Adjust as needed */
     }
     
 }
