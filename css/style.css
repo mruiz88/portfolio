@@ -614,7 +614,7 @@ nav {
 /* project title */
 
 .project__title {
-    max-width: 1350px;
+    max-width: 1024px;
     margin: 0 auto;
     padding-top: 10rem;
     padding-bottom: 0em;
@@ -655,12 +655,12 @@ nav {
 /* projects content */
 
 .project__content {
-    max-width: 1350px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
 .project__img {
-    max-width: 1350px;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 4em 0em;
 }
